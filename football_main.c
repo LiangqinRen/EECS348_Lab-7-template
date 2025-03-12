@@ -1,5 +1,7 @@
 #include "football.h"
 
+#include <stdio.h>
+
 int main(int argc, char *argv[]) {
     int score;
     while (1) {
@@ -13,7 +15,8 @@ int main(int argc, char *argv[]) {
         }
 
         // calls function
-        count_combinations(score);
+        int result = count_combinations(score);
+        printf("%d\n", result);
     }
     return 0;
 }
