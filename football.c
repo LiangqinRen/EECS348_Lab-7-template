@@ -24,3 +24,7 @@ int count_combinations(int points) {
 
     return count;
 }
+
+void print_combinations(int points) {
+    printf("Hello World!");
+}
